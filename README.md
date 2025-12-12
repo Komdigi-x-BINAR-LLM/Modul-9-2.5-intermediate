@@ -66,4 +66,6 @@ python /path/ke/script.py
 ## Tantangan
 - Dari semua contoh di atas coba variasikan:
     - untuk minimumrag, coba buat dokumen sendiri (bisa pakai AI) lalu pakai untuk menggantikan dokumen yang ada, lalu uji chatbotnya
+    - untuk chat-with-your-docs, sebenarnya ada tahap yang redundan. Coba cari dan ubah kodenya agar tidak redundan.
+        - Hint: mungkin markdown tidak perlu disatukan dulu, setiap bagian terpisahnya bisa digunakan untuk mengelompokkan elemen-elemen menjadi chunk.
     - berdasarkan contoh dari chat-with-your-docs, buat ingestion terpisah dan persistent + aplikasi chatbot dedicated (ingestion di luar chatbot), lalu beri dokumen yang banyak. Bisa minta digenerate AI juga untuk dokumennya.
